@@ -15,6 +15,35 @@
     </entry>
     
     
+    
+    <entry>
+      <title>html制作烟花表白</title>
+      <link href="/2021/12/23/html%E4%B8%8Ecss%EF%BC%8Cjs%E5%88%9B%E4%BD%9C%E6%B2%89%E6%B5%B8%E5%BC%8F%E7%83%9F%E8%8A%B1%EF%BC%8C%E5%8D%B3%E5%B0%86%E8%B7%A8%E5%B9%B4%EF%BC%8C%E5%BF%AB%E7%BB%99%E4%BD%A0%E4%BA%B2%E7%88%B1%E7%9A%84%E4%B8%80%E8%B5%B7%E7%9C%8B%E7%83%9F%E8%8A%B1%E5%90%A7_%E7%94%A8%E8%BF%99%E4%B8%AA%E8%A1%A8%E7%99%BD100%25%E6%88%90%E5%8A%9F%20(1)/"/>
+      <url>/2021/12/23/html%E4%B8%8Ecss%EF%BC%8Cjs%E5%88%9B%E4%BD%9C%E6%B2%89%E6%B5%B8%E5%BC%8F%E7%83%9F%E8%8A%B1%EF%BC%8C%E5%8D%B3%E5%B0%86%E8%B7%A8%E5%B9%B4%EF%BC%8C%E5%BF%AB%E7%BB%99%E4%BD%A0%E4%BA%B2%E7%88%B1%E7%9A%84%E4%B8%80%E8%B5%B7%E7%9C%8B%E7%83%9F%E8%8A%B1%E5%90%A7_%E7%94%A8%E8%BF%99%E4%B8%AA%E8%A1%A8%E7%99%BD100%25%E6%88%90%E5%8A%9F%20(1)/</url>
+      
+        <content type="html"><![CDATA[<p><strong>什么，都快跨年了，还不快来带你的对象一起看烟花？</strong><br>先看看效果：<br><img src="https://img-blog.csdnimg.cn/45c1812ea1cb4fa28c09f020598f1469.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAamF2YeiInuWKqOS5vuWdpA==,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"><br>下面是视频效果：<br>[video(video-bX559Lqi-1640263872238)(type-bilibili)(url-<a href="https://player.bilibili.com/player.html?aid=507552789)(image-https://img-blog.csdnimg.cn/img_convert/47c5ca51ab2bd8c2edeaac439c37a869.png)(title-html%E6%89%93%E9%80%A0%E6%B5%AA%E6%BC%AB%E7%83%9F%E8%8A%B1)%5D">https://player.bilibili.com/player.html?aid=507552789)(image-https://img-blog.csdnimg.cn/img_convert/47c5ca51ab2bd8c2edeaac439c37a869.png)(title-html打造浪漫烟花)]</a><br><strong>当然背景图片自己是可以添加制作的,点击屏幕就会有烟花的声音哦~</strong><br>下面上代码：<br>html:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line">&lt;!doctype html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line"></span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset=<span class="string">&quot;utf-8&quot;</span>&gt;</span><br><span class="line">    &lt;title&gt;烟花&lt;/title&gt;</span><br><span class="line">    &lt;style&gt;</span><br><span class="line">        html,</span><br><span class="line">        * &#123;</span><br><span class="line">            margin: 0;</span><br><span class="line">            padding: 0</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        body &#123;</span><br><span class="line">            background-image: url(qv1.jpg);</span><br><span class="line">            background-size: 50% 50%;</span><br><span class="line">            background-size: 100%;</span><br><span class="line">            background-repeat: no-repeat;</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        .demo &#123;</span><br><span class="line">            margin: 0 auto;</span><br><span class="line">            width: 100%;</span><br><span class="line">            height: 100%;</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        h1 &#123;</span><br><span class="line">            margin: 175px auto 30px auto;</span><br><span class="line">            text-align: center;</span><br><span class="line">            font-family: <span class="string">&#x27;Roboto&#x27;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line"></span><br><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;div class=<span class="string">&quot;demo&quot;</span>&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;script src=<span class="string">&quot;https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line">    &lt;script src=<span class="string">&quot;fireworks.js&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line">    &lt;script&gt;</span><br><span class="line">        $(<span class="string">&#x27;.demo&#x27;</span>).fireworks(&#123;</span><br><span class="line">            sound: <span class="literal">true</span>,</span><br><span class="line">            opacity: 0.8,</span><br><span class="line">            width: <span class="string">&#x27;100%&#x27;</span>,</span><br><span class="line">            height: <span class="string">&#x27;100%&#x27;</span></span><br><span class="line">        &#125;);</span><br><span class="line">    &lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;/body&gt;</span><br><span class="line"></span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure><p>js这里采用百度网盘形式<br><a href="https://pan.baidu.com/s/1QzSpJgfggTfJJ4YR6UxXiA">链接</a><br>提取码：6666</p><p><strong>如果喜欢的话，记得要给小舞点点关注收藏哦~</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端知识 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> HTML </tag>
+            
+            <tag> js </tag>
+            
+            <tag> css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
   
   
 </search>
