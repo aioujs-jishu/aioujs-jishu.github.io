@@ -74,20 +74,6 @@
 
   
   <url>
-    <loc>http://aioujs-jishu.github.io/tags/java/</loc>
-    <lastmod>2022-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://aioujs-jishu.github.io/tags/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2022-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://aioujs-jishu.github.io/tags/HTML/</loc>
     <lastmod>2022-05-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -108,17 +94,31 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>http://aioujs-jishu.github.io/categories/%E6%AD%A3%E5%88%99/</loc>
+    <loc>http://aioujs-jishu.github.io/tags/java/</loc>
     <lastmod>2022-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
+    <loc>http://aioujs-jishu.github.io/tags/%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2022-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+  <url>
     <loc>http://aioujs-jishu.github.io/categories/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2022-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://aioujs-jishu.github.io/categories/%E6%AD%A3%E5%88%99/</loc>
     <lastmod>2022-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
